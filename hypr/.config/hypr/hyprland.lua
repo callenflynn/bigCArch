@@ -261,6 +261,9 @@ local suppressMaximizeRule = hl.window_rule({
 })
 -- suppressMaximizeRule:set_enabled(false)
 
+
+
+
 hl.window_rule({
     -- Fix some dragging issues with XWayland
     name  = "fix-xwayland-drags",
@@ -298,3 +301,8 @@ loadfile(os.getenv("HOME") .. "/.local/share/ambxst/hyprland.lua")()
 
 -- OVERRIDES
 -- Down here you can write or source anything that you want to override from Ambxst's settings.
+hl.config({
+    xwayland = {
+        force_zero_scaling = true,
+    },
+})
