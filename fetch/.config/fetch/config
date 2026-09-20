@@ -1,0 +1,21 @@
+
+os
+host
+shell
+display
+wm
+terminal
+cpu
+gpu
+memory
+disk
+
+# Appearance
+separator=-
+label_color=cyan
+
+# 3D Logo Defaults
+light=top-left
+spin=xy
+speed=1.0
+size=1.0
