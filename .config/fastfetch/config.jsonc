@@ -1,0 +1,80 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "small",
+    "source": "",
+    "padding": {
+      "top": 0,
+      "left": 0,
+      "bottom": 0,
+      "right": 4
+    },
+    "position": "left"
+  },
+  "display": {
+    "separator": ": ",
+    "brightColor": true,
+    "key": {
+      "width": 0,
+      "type": "string"
+    }
+  },
+  "modules": [
+    {
+      "type": "title",
+      "key": " "
+    },
+    {
+      "type": "separator",
+      "string": "-"
+    },
+    {
+      "type": "os",
+      "keyIcon": ""
+    },
+    {
+      "type": "host",
+      "keyIcon": "󰌢"
+    },
+    {
+      "type": "shell",
+      "keyIcon": ""
+    },
+    {
+      "type": "display",
+      "keyIcon": "󰍹"
+    },
+    {
+      "type": "de",
+      "keyIcon": ""
+    },
+    {
+      "type": "wm",
+      "keyIcon": "",
+      "detectPlugin": true
+    },
+    {
+      "type": "terminal",
+      "keyIcon": ""
+    },
+    {
+      "type": "cpu",
+      "keyIcon": "",
+      "showPeCoreCount": true
+    },
+    {
+      "type": "gpu",
+      "keyIcon": "󰾲"
+    },
+    {
+      "type": "physicalmemory",
+      "keyIcon": "󰑭",
+      "showEmptySlots": false
+    },
+    {
+      "type": "disk",
+      "keyIcon": "",
+      "hideFolders": "/efi:/boot:/boot/*"
+    }
+  ]
+}

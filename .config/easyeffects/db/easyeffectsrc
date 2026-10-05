@@ -1,0 +1,11 @@
+[StreamInputs]
+inputDevice=alsa_input.usb-3142_Fifine_Microphone-00.pro-input-0
+
+[StreamOutputs]
+outputDevice=alsa_output.pci-0000_65_00.6.analog-stereo
+visiblePage=pluginsPage
+
+[Window]
+height=420
+visiblePipeWirePage=modulesPage
+width=710
